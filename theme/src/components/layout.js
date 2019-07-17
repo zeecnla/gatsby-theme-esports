@@ -29,6 +29,7 @@ const Layout = ({ children }) => {
       <Main>
         <Container>{children}</Container>
       </Main>
+      <Footer/>
     </StyledLayout>
   )
 }
